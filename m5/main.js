@@ -13,7 +13,3 @@ function changeToFibonacci() {
 
 let result = document.getElementById('result');
 document.getElementById("get-input-button").addEventListener("click", changeToFibonacci);
-
-for (let i = 0; i < 10; i++); {
-    console.log(true);
-}
