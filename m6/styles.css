@@ -29,11 +29,6 @@ body {
     visibility: hidden;
 }
 
-.col,
-[class*="col-"] {
-    border: 1px solid black;
-}
-
 .top-buffer-first-row {
     margin-top: 100px;
 }
