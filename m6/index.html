@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row top-buffer-first-row">
+        <div class="col-6">
+            <h1 class="heading left-buffer-top">Fibonacci Calculator</h1>
+        </div>
+    </div>
+    <div class="row top-buffer-second-row">
+        <div class="col-6 d-flex align-content-center">
+            <span class="text left-buffer-bottom">The Fibonacci Of</span>
+            <input id="userInput" class="input text inline-left-buffer" placeholder="#" type="text">
+            <button id="getInputButton" class="inline-left-buffer">ls</button>
+            <span id="term" class="text term inline-left-buffer"></span>
+            <span id="spinner" class="spinner-border inline-left-buffer" role="status"></span>
+            <span id="meaningError" class="inline-left-buffer align-self-center">Server Error: <span id="meaning"></span></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-2 col-6">
+            <div id="errorMessage" class="badge">Can't be larger than 50</div>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

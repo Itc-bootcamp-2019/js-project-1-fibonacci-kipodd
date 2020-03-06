@@ -3,12 +3,12 @@ body {
     margin: 0;
 }
 
-#user-input {
+#userInput {
     width: 86px;
     height: 38px;
 }
 
-#get-input-button {
+#getInputButton {
     width: 39px;
     height: 38px;
     background: #0275D8;
@@ -18,8 +18,20 @@ body {
     color: white;
 }
 
-#term {
-    margin-left: 15px;
+#spinner, #term, #meaningError {
+    display: none;
+}
+
+#errorMessage {
+    background-color: #F2DEDE;
+    margin-left: 40px;
+    padding: 15px;
+    visibility: hidden;
+}
+
+.col,
+[class*="col-"] {
+    border: 1px solid black;
 }
 
 .top-buffer-first-row {
@@ -39,14 +51,15 @@ body {
 }
 
 .heading {
-    font-style: normal;
-    font-weight: normal;
     font-size: 72px;
 }
 
-.text {
+.text, .meaning-error, .heading {
     font-style: normal;
     font-weight: normal;
+}
+
+.text {
     font-size: 24px;
 }
 
@@ -54,7 +67,17 @@ body {
     margin-left: 10px;
 }
 
-.result {
+.term {
     text-decoration-line: underline;
     font-weight: bold;
+}
+
+.input {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+#meaningError {
+    font-size: 16px;
+    color: #D9534F;
 }
