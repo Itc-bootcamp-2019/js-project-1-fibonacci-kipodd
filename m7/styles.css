@@ -1,0 +1,74 @@
+body {
+    font-family: Open Sans, serif;
+    margin: 0;
+}
+
+#userInput {
+    width: 86px;
+    height: 38px;
+}
+
+#getInputButton {
+    width: 39px;
+    height: 38px;
+    background: #0275D8;
+    border: 1px solid #0275D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white;
+}
+
+#isSpinner, #term, #meaningError, #resultsSpinner {
+    display: none;
+}
+
+#errorMessage {
+    background-color: #F2DEDE;
+    margin-right: 6%;
+    padding: 15px;
+    visibility: hidden;
+}
+
+.top-buffer-first-row {
+    margin-top: 100px;
+}
+
+.top-buffer-second-row {
+    margin-top: 50px;
+}
+
+.heading {
+    font-size: 72px;
+}
+
+.text, .meaning-error, .heading {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.inline-left-buffer {
+    margin-left: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.term {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.input {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+#meaningError {
+    font-size: 16px;
+    color: #D9534F;
+}
