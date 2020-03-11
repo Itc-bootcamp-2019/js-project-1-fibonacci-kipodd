@@ -11,5 +11,5 @@ function changeToFibonacci() {
     result.innerText = calculateFibonacci(x);
 }
 
-let result = document.getElementById('term');
+let result = document.getElementById('result');
 document.getElementById("get-input-button").addEventListener("click", changeToFibonacci);

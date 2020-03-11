@@ -13,7 +13,7 @@ function calculateFibonacci(index) {
 
 function changeToFibonacci() {
     let x = document.getElementById("user-input").value;
-    document.getElementById('term').innerText = calculateFibonacci(x);
+    document.getElementById('result').innerText = calculateFibonacci(x);
 }
 
 document.getElementById("get-input-button").addEventListener("click", changeToFibonacci);
