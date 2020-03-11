@@ -24,9 +24,9 @@ body {
 
 #errorMessage {
     background-color: #F2DEDE;
-    margin-right: 2%;
+    margin-right: 6%;
     padding: 15px;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .top-buffer-first-row {
